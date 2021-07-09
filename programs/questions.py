@@ -37,6 +37,17 @@
 def one(input1, input2):
     pass
 
+if len(input1, input2):
+    return input1 + "\n" + input2
+else:
+    return max(input1, input2)
+
+input1, input2 = one()
+
+one = input1("Please enter a string:\n")
+
+input2("Please enter a second string:\n")
+
 
     # <QUESTION 2>
 
@@ -85,6 +96,17 @@ def two(input):
 
 def three(arg1):
     pass
+# if arg1 is divisible by 3:
+#     return "Fizz"
+# if arg1 is % by 5:
+#     return "buzz"
+# if arg1 is % by 3 and % by 5:
+#     return "fizbuzz"
+# if arg1 is not % by 3 or 5:
+#     return "null"
+
+
+
 
 
     # <QUESTION 4>
