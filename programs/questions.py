@@ -34,19 +34,29 @@
 
     # What was the name of the function we have seen to check the length of a container?  Use your CLI to access the Python documentation and get help(len).
 
+from typing import Counter, no_type_check
+
+
 def one(input1, input2):
     pass
+input1, input2 = input("Enter a string: "), input2("Enter another string: ")
 
-if len(input1, input2):
-    return input1 + "\n" + input2
+if len(input1) == len(input2):
+    print(input1 + "\n" + input2)
 else:
-    return max(input1, input2)
+    print(max(input1, input2))
+return(one)
 
-input1, input2 = one()
+# if len(input1, input2):
+#     return input1 + "\n" + input2
+# else:
+#     return max(input1, input2)
 
-one = input1("Please enter a string:\n")
+# input1, input2 = one()
 
-input2("Please enter a second string:\n")
+# one = input1("Please enter a string:\n")
+
+# input2("Please enter a second string:\n")
 
 
     # <QUESTION 2>
@@ -74,6 +84,15 @@ input2("Please enter a second string:\n")
 def two(input):
     pass
 
+s = "bertclivebert"
+start= s.find("bert") + len("bert")
+end = s.find("bert")
+substring = s[start:end]
+
+if start == end:
+    return substring
+else: 
+    return " "
 
     # <QUESTION 3>
 
@@ -96,14 +115,14 @@ def two(input):
 
 def three(arg1):
     pass
-# if arg1 is divisible by 3:
-#     return "Fizz"
-# if arg1 is % by 5:
-#     return "buzz"
-# if arg1 is % by 3 and % by 5:
-#     return "fizbuzz"
-# if arg1 is not % by 3 or 5:
-#     return "null"
+if arg1 is divisible by 3:
+    return "Fizz"
+if arg1 is % by 5:
+    return "buzz"
+if arg1 is % by 3 and % by 5:
+    return "fizbuzz"
+if arg1 is not % by 3 or 5:
+    return "null"
 
 
 
@@ -133,6 +152,9 @@ def three(arg1):
 
 def four(arg1):
     pass
+
+value = input("Please enter three number: ")
+
 
 
     # <QUESTION 5>
@@ -184,6 +206,10 @@ def five(input):
 def six(input):
     pass
 
+input.split(":")
+[input:"i", input:"e", input:"c"]
+input.split (":")[2]
+
 
     # <QUESTION 7>
 
@@ -202,6 +228,17 @@ def six(input):
 def seven(input):
     pass
 
+this_string = "a, e, i, o, u"
+a = 1
+e = 1
+i = 1
+o = 1
+u = 1
+
+vowel_counts = {}
+count = count(vowel)
+vowel_counts[vowel] = Count
+    return vowel_counts
 
     # <QUESTION 8>
 
@@ -263,3 +300,17 @@ def nine(inputString, char):
 
 def ten(string, int, char):
     pass
+
+if string == nth:
+    return True
+if int == nth:
+    return True
+elif char == nth:
+    return True 
+else:
+    return False
+    
+
+
+if string and char = ten
+    return "nth"
